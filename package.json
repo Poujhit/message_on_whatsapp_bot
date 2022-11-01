@@ -1,0 +1,14 @@
+{
+  "name": "message_on_whatsapp_bot",
+  "version": "1.0.0",
+  "description": "Message on whatsapp bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Poujhit MU",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.10.0"
+  }
+}
