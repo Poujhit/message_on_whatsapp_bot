@@ -4,11 +4,17 @@
   "description": "Message on whatsapp bot",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "tsc"
   },
   "author": "Poujhit MU",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "telegraf": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
   }
 }
