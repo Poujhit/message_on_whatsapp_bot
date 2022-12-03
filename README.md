@@ -1,5 +1,7 @@
 # Message on WhatsApp bot
 
+It's a Telegram bot.
+
 Send a phone number and it will give you a link. Opening that will take you straight to whatsapp to chat with that number.
 
 ## About Me
