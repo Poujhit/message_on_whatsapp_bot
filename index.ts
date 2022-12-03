@@ -17,9 +17,16 @@ bot.start((ctx) => {
 });
 
 bot.on('text', async (ctx) => {
-  console.log('HERE ON TEXT');
-  // Using context shortcut
-  await ctx.reply(`https://wa.me/91${ctx.message.text}`);
+  const letters = /^[A-Za-z]+$/;
+  if (ctx.message.text.match(letters)) {
+    console.log('HERE ON TEXT');
+    // Using context shortcut
+    await ctx.reply(`ENTER ONLY PHONE NUMBERS.....😕`);
+  } else {
+    console.log('HERE ON NUMBER');
+    // Using context shortcut
+    await ctx.reply(`https://wa.me/91${ctx.message.text}`);
+  }
 });
 
 bot.launch();
